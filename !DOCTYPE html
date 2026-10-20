@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+</head>
+<body>
+
+    <h1>My Portfolio</h1>
+
+    <hr>
+
+    <h2>About Me</h2>
+    <p>
+        Hello! My name is Muhammad Irfan. I am a Networking student currently studying at UNIMAS.
+        I am from Kuching, Sarawak, and I am interested in networking, web development, and technology.
+    </p>
+
+    <hr>
+
+    <h2>My Skills</h2>
+    <ul>
+        <li>Networking</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <hr>
+
+    <h2>My Draft Projects (UNIMAS)</h2>
+
+    <h3>1. E-Scooter Rental System</h3>
+    <p>
+        This project is an online rental system that allows users to register,
+        book, rent, and return e-scooters. The system helps manage scooter
+        availability and rental records efficiently.
+    </p>
+
+    <h3>2. Mechanical Issue Reporting System</h3>
+    <p>
+        This project allows users to report mechanical issues and track repair
+        progress. The system helps maintenance staff manage repair requests and
+        improve communication with users.
+    </p>
+
+    <h3>3. Personal Portfolio Website</h3>
+    <p>
+        This website showcases my personal information, skills, projects, and
+        contact details. It demonstrates my basic web development skills using
+        HTML and JavaScript.
+    </p>
+
+    <hr>
+
+    <h2>Contact</h2>
+    <p>Email: irfann.kamarul@gmail.com</p>
+
+    <hr>
+
+    <p id="message"></p>
+
+    <script>
+        document.getElementById("message").innerHTML =
+            "Welcome to my personal portfolio website!";
+    </script>
+
+</body>
+</html>
